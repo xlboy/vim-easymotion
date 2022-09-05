@@ -1156,7 +1156,7 @@ function! s:EasyMotion(regexp, direction, visualmode, is_inclusive, ...) " {{{
         \ get(s:current, 'original_position', s:current.cursor_position)
     "}}}
 
-    let win_first_line = 1000 " line('w0') " visible first line num
+    let win_first_line = 0 " line('w0') " visible first line num
     let win_last_line  = 1000 " line('w$') " visible last line num
 
     " Store the target positions list
