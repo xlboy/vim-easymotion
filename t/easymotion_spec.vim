@@ -1254,7 +1254,7 @@ describe 'off-screen search'
         call EasyMotion#init()
         call AddLine('deco-chan deco-chan')
         call AddLine('vim')
-        for i in range(50)
+        for i in range(500)
             call AddLine('poge1 2huga 3hiyo 4poyo')
         endfor
         "             12345678901234567890123
@@ -1323,7 +1323,7 @@ describe 'dot notoff-screen search'
         call EasyMotion#init()
         call AddLine('deco-chan deco-chan')
         call AddLine('vim')
-        for i in range(50)
+        for i in range(500)
             call AddLine('poge1 2huga 3hiyo 4poyo')
         endfor
         "             12345678901234567890123
